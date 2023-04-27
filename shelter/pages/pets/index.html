@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="../../assets/favicon/animal-shelter.png">
+
+    <link rel="stylesheet" href="../../css/normalize.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pets page</title>
+</head>
+<body class="body-fixed-header">
+    <div class="popup-container">
+        <div class="popup-card">
+            <button class="btn-popup"><img src="../../assets/icons/x.png" alt="button"></button>
+            <img class="popup-card-img" src="../../assets/images/pets-charly.png" alt="charly">
+            <div class="popup-content">
+                <div class="popup-header">Woody</div>
+                <div class="popup-subheader">Dog - Golden Retriever</div>
+                <div class="popup-text">Woody is a handsome 3 1/2 year old boy. Woody does know basic commands and is a
+                    smart pup. Since he is on the stronger side, he will learn a lot from your training. Woody will be
+                    happier when he finds a new family that can spend a lot of time with him.</div>
+                <ul class="pupup-list-description">
+                    <li class="popup-description-text"><b>Age:</b> 3 years 6 months</li>
+                    <li class="popup-description-text"><b>Inoculations:</b> none</li>
+                    <li class="popup-description-text"><b>Diseases:</b> none</li>
+                    <li class="popup-description-text"><b>Parasites:</b></li>
+                    <li class="popup-description-text"> <b>Parasites:</b>none</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="header-list">
+                    <div class="header-logo">
+                        <a href="../main/index.html" class="logo-link">
+                            <h1 class="header-logo-title">Cozy House</h1>
+                            <div class="header-logo-subtitle">Shelter for pets in Boston</div>
+                        </a>
+                    </div>
+                    <div class="main-navbar">
+                        <nav class="header-nav">
+                            <ul class="nav-list">
+                                <li class="nav-item"><a href="../main/index.html" class="nav-link active">About the shelter</a></li>
+                                <li class="nav-item"><a href="#pets" class="nav-link">Our pets</a></li>
+                                <li class="nav-item"><a href="../main/index.html#help" class="nav-link">Help the shelter</a></li>
+                                <li class="nav-item"><a href="#footer" class="nav-link">Contacts</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="hamburger">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="pets">
+            <div class="pets-container">
+                <div class="pets-heading">Our friends who <br> are looking for a house</div>
+                
+                <div class="card-wrapper card-container">
+                    <div class="card-item" id="4">
+                        <img src="../../assets/images/pets-katrine.png" alt="katrine">
+                        <p class="pets-name">Katrine</p>
+                        <button class="btn btn-white m-auto mb-30">Learn more</button>
+                    </div>
+                    <div class="card-item" id="0">
+                        <img src="../../assets/images/pets-jennifer.png" alt="jennifer">
+                        <p class="pets-name">Jennifer</p>
+                        <button class="btn btn-white m-auto mb-30">Learn more</button>
+                    </div>
+                    <div class="card-item" id="2">
+                        <img src="../../assets/images/pets-woody.png" alt="woody">
+                        <p class="pets-name">Woody</p>
+                        <button class="btn btn-white m-auto mb-30">Learn more</button>
+                    </div>
+                    <div class="card-item display-none" id="1">
+                        <img src="../../assets/images/pets-sophia.png" alt="sophia">
+                        <p class="pets-name">Sophia</p>
+                        <button class="btn btn-white m-auto mb-30">Learn more</button>
+                    </div>
+                    <div class="card-item display-none" id="5">
+                        <img src="../../assets/images/pets-timmy.png" alt="timmy">
+                        <p class="pets-name">Timmy</p>
+                        <button class="btn btn-white m-auto mb-30">Learn more</button>
+                    </div>
+                    <div class="card-item display-none" id="7">
+                        <img src="../../assets/images/pets-charly.png" alt="charly">
+                        <p class="pets-name">Charly</p>
+                        <button class="btn btn-white m-auto mb-30">Learn more</button>
+                    </div>
+                    <div class="card-item display-none" id="3">
+                        <img src="../../assets/images/pets-scarlet.png" alt="charly">
+                        <p class="pets-name">Scarlett</p>
+                        <button class="btn btn-white m-auto mb-30">Learn more</button>
+                    </div>
+                    <div class="card-item display-none" id="6">
+                        <img src="../../assets/images/pets-freddie.png" alt="freddie">
+                        <p class="pets-name">Freddie</p>
+                        <button class="btn btn-white m-auto mb-30">Learn more</button>
+                    </div>
+                </div>
+                <div class="pets-navigator">
+                    <button class="arrow arrow-passive"><<</button>
+                    <button class="arrow arrow-passive"><</button>
+                    <button class="arrow active-button">1</button>
+                    <button class="arrow arrow-active">></button>
+                    <button class="arrow arrow-active">>></button>
+                </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <h3 class="footer-title pb-40">For questions and suggestions</h3>
+                <div class="footer-mail">
+                    <img src="../../assets/images/icon-email.svg" alt="icon-email">
+                    <p class="mail-name"><a href="mailto:email@shelter.com">email@shelter.com</a></p>
+                </div>
+                <div class="footer-phone">
+                    <img src="../../assets/images/icon-phone.svg" alt="phone">
+                    <p class="phone"><a href="tel:+136745677554">+13 674 567 75 54</a></p>
+                </div>
+            </div>
+            <div class="footer-location">
+                <h3 class="footer-title">We are waiting for your visit</h3>
+                <div class="footer-map-wrapper">
+
+                    <div class="location ptb-40">
+                        <img src="../../assets/images/icon-marker.png" alt="icon-map">
+                        <h4 class="address-map">
+                            <a href="https://goo.gl/maps/Sjo1WreWW6d8mc9t7" target="_blank"> 1 Central Street, Boston
+                                (entrance from the store)</a>
+                        </h4>
+                    </div>
+
+                    <div class="location">
+                        <img src="../../assets/images/icon-marker.png" alt="icon-map">
+                        <h4 class="address-map">
+                            <a href="https://goo.gl/maps/TvCuw5F8czPSaUZS6" target="_blank">18 South Park, London</a>
+                        </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-puppy">
+                <img src="../../assets/images/footer-puppy.png" alt="footer-puppy">
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="../../js/script.js"></script>
+</body>
+
+</html>

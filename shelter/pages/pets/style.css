@@ -1,0 +1,175 @@
+.header-wrapper {
+    background-color: #FFFFFF;
+}
+
+.header-logo-title {
+    color: #545454;
+}
+
+.header-logo-subtitle {
+    color: #292929;
+}
+
+a.nav-link {
+    color: #545454;
+}
+
+.header-wrapper {
+    margin: 0;
+}
+
+.header-logo {
+    margin: 0;
+}
+
+.header-list {
+    padding: 30px 40px;
+}
+
+.pets {
+    background: #F6F6F6;
+}
+
+.pets-heading {
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    color: #545454;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 45px;
+}
+
+.card-item {
+    width: 270px;
+    margin: 15px 0;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+.arrow-passive {
+    color: #CDCDCD;
+    border: 2px solid;
+}
+
+.arrow-active {
+    color: #292929;
+}
+
+.pets-container {
+    padding: 80px 40px 100px 40px;
+}
+
+.pets-heading {
+    padding-bottom: 45px;
+}
+
+.pets-navigator {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    margin: 0 10px;
+    background-color: #F6F6F6;
+}
+
+.arrow-passive:hover {
+    background-color: #F6F6F6;
+    ;
+}
+
+@media screen and (max-width: 1279px) {
+    .header-list {
+        padding: 30px;
+    }
+
+    .header-nav {
+        margin-right: 0;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .our-pets .container {
+        padding-top: 60px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 70px;
+    }
+
+    .card-item {
+        margin: 0;
+    }
+
+    .pets-name {
+        padding: 22px 0;
+    }
+
+    .pets-heading {
+        padding-bottom: 30px;
+    }
+
+    .pets-name {
+        padding: 30px 0;
+    }
+
+    .card-wrapper {
+        row-gap: 26px;
+        justify-content: space-evenly;
+    }
+
+    .pets-container {
+        padding-bottom: 66px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-list {
+        padding-bottom: 30px;
+        padding-left: 11px;
+    }
+
+    .hamburger {
+        margin-right: 22px;
+    }
+
+    .pets-container {
+        padding: 42px 10px;
+    }
+
+    .pets-heading {
+        padding-bottom: 40px;
+        font-size: 25px;
+        line-height: 32px;
+        letter-spacing: 0.06em;
+        text-align: center;
+    }
+
+    .arrow {
+        margin: 0px 4px;
+    }
+
+    .card-wrapper {
+        margin-bottom: 40px;
+    }
+
+}
+
+
+
+
